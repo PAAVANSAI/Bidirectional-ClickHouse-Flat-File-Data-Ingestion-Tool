@@ -1,0 +1,60 @@
+I'll go ahead and include all the prompts you've asked throughout the course of this project in the Word document. Here's a more comprehensive list of the prompts that you used during the project development:
+
+---
+
+ Prompts List
+
+1. Docker Setup
+   - "How to set up Docker on Windows?"
+   - "How to check if Docker is running correctly?"
+ 
+
+2. Backend Setup (Flask + ClickHouse Integration)
+   - "How to create a Flask app to serve HTML?"
+   - "How to integrate ClickHouse with Python?"
+   - "How to perform CRUD operations on ClickHouse using Python?"
+   - "How to implement JWT authentication in Flask?"
+   - "How to pass JWT token in the request header for API calls?"
+   - "How to insert data into ClickHouse from a CSV file?"
+   - "How to query ClickHouse and write results to a file?"
+
+3. Frontend Setup (HTML, CSS, JS)
+   - "How to create a simple HTML form with Flask backend?"
+   - "How to pass data from Flask to the frontend template?"
+   
+
+4. File Management & Flat File Operations
+   - "How to handle file uploads in Flask?"
+   - "How to generate CSV files from query results in Python?"
+
+5. Error Handling & Debugging
+   - "How to fix TemplateNotFound error in Flask?"
+   - "How to troubleshoot Docker not recognizing the image?"
+   - "How to handle the Flask Debugger exceptions?"
+   - "How to print and view error logs in Flask?"
+   - "How to check Flask output on localhost?"
+
+6. Project Finalization
+   - "How to prepare a Word document for submitting a Flask project?"
+   - "How to create a project report with sections like features, tech stack, and installation guide?"
+   - "How to add important prompts used during development in documentation?"
+
+---
+
+ Additional Prompts
+
+7. ClickHouse Table Operations
+   - "How to list all tables in ClickHouse?"
+   - "How to fetch the column names of a table from ClickHouse?"
+   - "How to execute a join operation in ClickHouse?"
+   - "How to handle different data types between Flat File and ClickHouse?"
+   - "How to handle column selection for ingestion from a table?"
+
+8. UI Features
+   - "How to create an action button for ingestion in HTML?"
+   - "How to track progress and display results of ingestion in Flask?"
+   - "How to display the status of different tasks (connect, load, ingest) in the UI?"
+
+---
+
+I've now ensured that all the important prompts you asked are included in your document. If you need further modifications, feel free to let me know!
