@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickHouse FlatFile Ingestion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Data Ingestion Tool</h1>
+
+    <div id="status"></div>
+
+    <h2>Connection Settings</h2>
+    <form id="config-form">
+        <label for="source">Source:</label>
+        <select id="source" name="source">
+            <option value="clickhouse">ClickHouse</option>
+            <option value="flatfile">Flat File</option>
+        </select><br><br>
+
+        <div id="clickhouse-config">
+            <label for="host">Host:</label><input type="text" id="host" placeholder="ClickHouse Host"><br><br>
+            <label for="port">Port:</label><input type="text" id="port" placeholder="Port"><br><br>
+            <label for="jwt">JWT Token:</label><input type="text" id="jwt" placeholder="JWT Token"><br><br>
+            <label for="database">Database:</label><input type="text" id="database" placeholder="Database Name"><br><br>
+        </div>
+
+        <div id="flatfile-config">
+            <label for="file">Flat File:</label><input type="file" id="file"><br><br>
+            <label for="delimiter">Delimiter:</label><input type="text" id="delimiter" placeholder="e.g. comma, tab"><br><br>
+        </div>
+
+        <button type="button" onclick="connectToSource()">Connect</button>
+    </form>
+
+    <h2>Column Selection</h2>
+    <div id="column-selection"></div>
+
+    <button type="button" onclick="startIngestion()">Start Ingestion</button>
+    <button type="button" onclick="previewData()">Preview</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
